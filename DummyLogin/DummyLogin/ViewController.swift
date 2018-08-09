@@ -12,19 +12,26 @@ class ViewController: UIViewController {
 
     @IBOutlet var email: UITextField!
     @IBOutlet var password: UITextField!
+    @IBOutlet var label: UILabel!
     
     @IBAction func login(_ sender: Any) {
+        var emailFlag = false;
+        var passwordFlag = false;
+        
         if email.text != "" {
+            emailFlag = true;
             print("your email is " + email.text!)
         } else {
             print("please enter a valid email")
         }
         
         if password.text != "" {
+            passwordFlag = true;
             print("your password is " + password.text!)
         } else {
             print("please enter a valid password")
         }
+        
     }
     
     override func viewDidLoad() {
