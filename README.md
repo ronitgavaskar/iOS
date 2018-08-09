@@ -1,6 +1,8 @@
 # iOS
 This repo will contain my different apps as I learn from the basics and explore mobile app development. I'm excited!
 
+NOTE: Beginner Level is Not responsive. It's catered to work with my Iphone 8 Plus.
+
 Level: Beginner
 
 1. Hello World
