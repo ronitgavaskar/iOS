@@ -12,6 +12,8 @@ class ViewController: UIViewController {
     @IBOutlet var age: UITextField!
     @IBOutlet var display: UILabel!
     
+    @IBOutlet var lionPic: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -26,6 +28,16 @@ class ViewController: UIViewController {
         
         if let ageValue = age.text {
             display.text = "You are \(ageValue) years old!"
+            if Int(ageValue)! < 18 {
+                lionPic.image = UIImage(named: "baby simba.jpg")
+            } else if Int(ageValue)! >= 18 && Int(ageValue)! < 25 {
+                lionPic.image = UIImage(named: "adolescent simba.png")
+            } else if Int(ageValue)! >= 25 && Int(ageValue)! < 40 {
+                lionPic.image = UIImage(named: "grown simba.jpg")
+            } else {
+                lionPic.image = UIImage(named: "old simba.jpg")
+            }
+            view.endEditing(true)
         }
     }
     

@@ -12,6 +12,10 @@
 		D12A50B7211CDB2E004EDCA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12A50B5211CDB2E004EDCA7 /* Main.storyboard */; };
 		D12A50B9211CDB2F004EDCA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12A50B8211CDB2F004EDCA7 /* Assets.xcassets */; };
 		D12A50BC211CDB2F004EDCA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12A50BA211CDB2F004EDCA7 /* LaunchScreen.storyboard */; };
+		D12A50C7211CE3C0004EDCA7 /* old simba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D12A50C3211CE3BF004EDCA7 /* old simba.jpg */; };
+		D12A50C8211CE3C0004EDCA7 /* adolescent simba.png in Resources */ = {isa = PBXBuildFile; fileRef = D12A50C4211CE3BF004EDCA7 /* adolescent simba.png */; };
+		D12A50C9211CE3C0004EDCA7 /* grown simba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D12A50C5211CE3C0004EDCA7 /* grown simba.jpg */; };
+		D12A50CA211CE3C0004EDCA7 /* baby simba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D12A50C6211CE3C0004EDCA7 /* baby simba.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		D12A50B8211CDB2F004EDCA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D12A50BB211CDB2F004EDCA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D12A50BD211CDB2F004EDCA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D12A50C3211CE3BF004EDCA7 /* old simba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "old simba.jpg"; sourceTree = "<group>"; };
+		D12A50C4211CE3BF004EDCA7 /* adolescent simba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adolescent simba.png"; sourceTree = "<group>"; };
+		D12A50C5211CE3C0004EDCA7 /* grown simba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "grown simba.jpg"; sourceTree = "<group>"; };
+		D12A50C6211CE3C0004EDCA7 /* baby simba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "baby simba.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 		D12A50B0211CDB2E004EDCA7 /* Age */ = {
 			isa = PBXGroup;
 			children = (
+				D12A50C4211CE3BF004EDCA7 /* adolescent simba.png */,
+				D12A50C6211CE3C0004EDCA7 /* baby simba.jpg */,
+				D12A50C5211CE3C0004EDCA7 /* grown simba.jpg */,
+				D12A50C3211CE3BF004EDCA7 /* old simba.jpg */,
 				D12A50B1211CDB2E004EDCA7 /* AppDelegate.swift */,
 				D12A50B3211CDB2E004EDCA7 /* ViewController.swift */,
 				D12A50B5211CDB2E004EDCA7 /* Main.storyboard */,
@@ -124,7 +136,11 @@
 			files = (
 				D12A50BC211CDB2F004EDCA7 /* LaunchScreen.storyboard in Resources */,
 				D12A50B9211CDB2F004EDCA7 /* Assets.xcassets in Resources */,
+				D12A50C8211CE3C0004EDCA7 /* adolescent simba.png in Resources */,
+				D12A50C9211CE3C0004EDCA7 /* grown simba.jpg in Resources */,
 				D12A50B7211CDB2E004EDCA7 /* Main.storyboard in Resources */,
+				D12A50C7211CE3C0004EDCA7 /* old simba.jpg in Resources */,
+				D12A50CA211CE3C0004EDCA7 /* baby simba.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
