@@ -47,6 +47,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CbO-BA-8eY">
+                                <rect key="frame" x="74" y="455" width="266" height="224"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -54,6 +58,7 @@
                     <connections>
                         <outlet property="age" destination="5fP-2R-3Pj" id="8Hy-ej-Sgk"/>
                         <outlet property="display" destination="HqX-bQ-skF" id="a99-2h-QS1"/>
+                        <outlet property="lionPic" destination="CbO-BA-8eY" id="nkl-26-NEh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
