@@ -31,4 +31,10 @@ Level: Beginner
    > Takes in age and prints "You are X years old" with X representing age
    > Makes sure age given is a number
    > Also changes image with a Simba picture depending on your age range
+   
+5. Cat Years
+- What did I learn?
+   > Used all aforementioned lessons to create my own first official app
+- What does it do?
+   > Given a certain age, it multiplies that age by 7 and then prints it out in the label
  
