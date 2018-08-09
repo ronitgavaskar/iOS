@@ -37,4 +37,10 @@ Level: Beginner
    > Used all aforementioned lessons to create my own first official app
 - What does it do?
    > Given a certain age, it multiplies that age by 7 and then prints it out in the label
+   
+6. How Many Fingers?
+- What did I learn?
+   > I learned what arc4random_uniform() does in terms of randomizing
+- What does it do?
+   > Lets you guess between 1 and 5 and tells you if you got it right or wrong
  
