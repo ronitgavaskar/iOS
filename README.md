@@ -24,8 +24,9 @@ Level: Beginner
 
 4. Age
  -  What did I learn from this?
-    > It's a practice project to learn more about button-label interaction
+    > It's a practice project to learn more about button-label interaction as well as UIIMage
  - What does it do?
    > Takes in age and prints "You are X years old" with X representing age
    > Makes sure age given is a number
+   > Also changes image with a Simba picture depending on your age range
  
