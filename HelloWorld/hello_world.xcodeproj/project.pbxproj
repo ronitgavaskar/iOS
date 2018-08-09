@@ -12,7 +12,18 @@
 		D12A5013211C1925004EDCA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12A5011211C1925004EDCA7 /* Main.storyboard */; };
 		D12A5015211C1926004EDCA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12A5014211C1926004EDCA7 /* Assets.xcassets */; };
 		D12A5018211C1926004EDCA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D12A5016211C1926004EDCA7 /* LaunchScreen.storyboard */; };
+		D12A5026211C1CEB004EDCA7 /* hello_world_tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12A5025211C1CEB004EDCA7 /* hello_world_tests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D12A5028211C1CEB004EDCA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D12A5002211C1925004EDCA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D12A5009211C1925004EDCA7;
+			remoteInfo = hello_world;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D12A500A211C1925004EDCA7 /* hello_world.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hello_world.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +33,20 @@
 		D12A5014211C1926004EDCA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D12A5017211C1926004EDCA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D12A5019211C1926004EDCA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D12A5023211C1CEB004EDCA7 /* hello_world_tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hello_world_tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12A5025211C1CEB004EDCA7 /* hello_world_tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello_world_tests.swift; sourceTree = "<group>"; };
+		D12A5027211C1CEB004EDCA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D12A5007211C1925004EDCA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12A5020211C1CEB004EDCA7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				D12A500C211C1925004EDCA7 /* hello_world */,
+				D12A5024211C1CEB004EDCA7 /* hello_world_tests */,
 				D12A500B211C1925004EDCA7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				D12A500A211C1925004EDCA7 /* hello_world.app */,
+				D12A5023211C1CEB004EDCA7 /* hello_world_tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +85,15 @@
 				D12A5019211C1926004EDCA7 /* Info.plist */,
 			);
 			path = hello_world;
+			sourceTree = "<group>";
+		};
+		D12A5024211C1CEB004EDCA7 /* hello_world_tests */ = {
+			isa = PBXGroup;
+			children = (
+				D12A5025211C1CEB004EDCA7 /* hello_world_tests.swift */,
+				D12A5027211C1CEB004EDCA7 /* Info.plist */,
+			);
+			path = hello_world_tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +116,24 @@
 			productReference = D12A500A211C1925004EDCA7 /* hello_world.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D12A5022211C1CEB004EDCA7 /* hello_world_tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D12A502C211C1CEB004EDCA7 /* Build configuration list for PBXNativeTarget "hello_world_tests" */;
+			buildPhases = (
+				D12A501F211C1CEB004EDCA7 /* Sources */,
+				D12A5020211C1CEB004EDCA7 /* Frameworks */,
+				D12A5021211C1CEB004EDCA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D12A5029211C1CEB004EDCA7 /* PBXTargetDependency */,
+			);
+			name = hello_world_tests;
+			productName = hello_world_tests;
+			productReference = D12A5023211C1CEB004EDCA7 /* hello_world_tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +146,10 @@
 				TargetAttributes = {
 					D12A5009211C1925004EDCA7 = {
 						CreatedOnToolsVersion = 9.4;
+					};
+					D12A5022211C1CEB004EDCA7 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = D12A5009211C1925004EDCA7;
 					};
 				};
 			};
@@ -113,6 +167,7 @@
 			projectRoot = "";
 			targets = (
 				D12A5009211C1925004EDCA7 /* hello_world */,
+				D12A5022211C1CEB004EDCA7 /* hello_world_tests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +183,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D12A5021211C1CEB004EDCA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,7 +202,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D12A501F211C1CEB004EDCA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12A5026211C1CEB004EDCA7 /* hello_world_tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D12A5029211C1CEB004EDCA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D12A5009211C1925004EDCA7 /* hello_world */;
+			targetProxy = D12A5028211C1CEB004EDCA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D12A5011211C1925004EDCA7 /* Main.storyboard */ = {
@@ -312,6 +390,46 @@
 			};
 			name = Release;
 		};
+		D12A502A211C1CEB004EDCA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RF48TSYWXU;
+				INFOPLIST_FILE = hello_world_tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ronitgavaskar.hello-world-tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hello_world.app/hello_world";
+			};
+			name = Debug;
+		};
+		D12A502B211C1CEB004EDCA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RF48TSYWXU;
+				INFOPLIST_FILE = hello_world_tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ronitgavaskar.hello-world-tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hello_world.app/hello_world";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -329,6 +447,15 @@
 			buildConfigurations = (
 				D12A501D211C1926004EDCA7 /* Debug */,
 				D12A501E211C1926004EDCA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D12A502C211C1CEB004EDCA7 /* Build configuration list for PBXNativeTarget "hello_world_tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12A502A211C1CEB004EDCA7 /* Debug */,
+				D12A502B211C1CEB004EDCA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
