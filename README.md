@@ -9,7 +9,7 @@ Level: Beginner
  - What did I learn from this?
    > Learned how to use a label in XCode
  - What does it do?
-   > Prints Hello World 
+   > Prints Hello World
 
 2. Dummy Login
  - What did I learn from this?
@@ -17,7 +17,7 @@ Level: Beginner
    > Learned to log info
  - What does it do?
    > Logs your email and password if available or prompts you to enter missing info
-   
+
 3. Greetings
  - What did I learn from this?
    > Learned how to use Button interactions with Labels
@@ -31,10 +31,15 @@ Level: Beginner
    > Takes in age and prints "You are X years old" with X representing age
    > Makes sure age given is a number
    > Also changes image with a Simba picture depending on your age range
-   
+
 5. Cat Years
 - What did I learn?
    > Used all aforementioned lessons to create my own first official app
 - What does it do?
    > Given a certain age, it multiplies that age by 7 and then prints it out in the label
- 
+
+6. How Many Fingers?
+- What did I learn?
+   > I learned what arc4random_uniform() does in terms of randomizing
+- What does it do?
+   > Lets you guess between 1 and 5 and tells you if you got it right or wrong
