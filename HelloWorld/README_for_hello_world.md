@@ -4,4 +4,4 @@ Current Features:
 
 Next Steps:
 - Adding Unit Tests just to get an understanding of how to unit test along with iOS
-- Possibly adding buttons and text areas
+- Possibly adding buttons and text areas 
